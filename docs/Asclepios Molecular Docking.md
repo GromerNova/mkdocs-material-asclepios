@@ -94,7 +94,7 @@ Output:
 
     | Scenario  | Workflow (Nodes involved) | Classes |
     | -------- | -------- | ---------------- |
-    | AutoDock Vina | [2 File Loaders {receptor:`mol2`, ligand:`sdf`} &rarr; 2 Transformers {receptor,ligand} &rarr; AutoDock Vina]  | [📄](Asclepios General Puprose.md "Asclepios General Puprose") [🧬](Utilizer.md "Asclepios Utilizer") [💊](Asclepios Molecular Docking.md "Asclepios Molecular Docking") |
+    | AutoDock Vina | [2 File Loaders {receptor:`mol2`, ligand:`sdf`} &rarr; 2 Transformers {receptor,ligand} &rarr; AutoDock Vina]  | [📄](Asclepios General Puprose.md "Asclepios General Puprose") [🧬](Asclepios Utilizer.md "Asclepios Utilizer") [💊](Asclepios Molecular Docking.md "Asclepios Molecular Docking") |
 
     Download workflow [:material-download:](../assets/medic/molecular_docking_scenario3.knwf)
 
