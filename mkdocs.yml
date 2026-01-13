@@ -1,0 +1,85 @@
+site_name: Asclepios
+site_url: https://mydomain.org/mysite
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            loader: griffe
+  - glightbox
+  - tags:
+      enabled: true
+
+theme:
+  logo: assets/knime_logo.png
+  name: material
+  features:
+    - navigation.expand
+    - navigation.tabs
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+    - content.footnote.tooltips
+  font:
+    text: Montserrat
+    code: Red Hat Mono
+  icon:
+    annotation: material/arrow-right-circle
+    logo: knime_icon
+
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: blue
+      accent: orange  
+
+    # Palette toggle for dark mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: orange
+      accent: blue
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.blocks.caption
+  - attr_list
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - def_list
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - footnotes
+copyright: Copyright &copy; 2025 Entelos Institute 
+
+
