@@ -257,7 +257,7 @@ Output:
     | Scenario  | Workflow (Nodes involved) | Classes |
     | -------- | -------- | ---------------- |
     | `SDF` &rarr; `Mol2` &rarr; `SDF`| [File Loader &rarr; Transformer {`SDF`  &rarr; `Mol2`} &rarr; Transformer {`Mol2`  &rarr; `SDF`}] | [📄](Asclepios General Puprose.md "Asclepios General Puprose") [🧬](Asclepios Utilizer.md "Asclepios Utilizer") |
-    | `SDF` &rarr; `PDBQT` &rarr; `SDF`| [File Loader &rarr; Transformer {`SDF`  &rarr; `PDBQT`} &rarr; Transformer {`PDBQT`  &rarr; `SDF`}] | [📄](Asclepios General Puprose.md "Asclepios General Puprose") [🧬](Asclepios Utilizer.md "Asclepios Utilizer") |
+    | `SDF` &rarr; `PDBQT` &rarr; `SDF`| [File Loader &rarr; Transformer {`SDF`  &rarr; `PDBQT`} &rarr; Transformer {`PDBQT`  &rarr; `SDF`}] | [📄](../Asclepios General Puprose.md "Asclepios General Puprose") [🧬](Asclepios Utilizer.md "Asclepios Utilizer") |
 
 
     </center>    
