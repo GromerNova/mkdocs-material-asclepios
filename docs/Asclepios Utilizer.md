@@ -223,7 +223,7 @@ Output:
 
     | Scenario  | Workflow (Nodes involved) | Classes |
     | -------- | -------- | ---------------- |
-    | Preserves chemical inforamtion of small molecules [`PDB`]| [File Loader &rarr; Transformer {`SDF`  &rarr; `PDB`} &rarr; Transformer {`PDB`  &rarr; `SDF`}]  | [📄](Asclepios%20General Puprose.md "Asclepios General Puprose") [🧬](Asclepios%20Utilizer.md "Asclepios Utilizer") |
+    | Preserves chemical inforamtion of small molecules [`PDB`]| [File Loader &rarr; Transformer {`SDF`  &rarr; `PDB`} &rarr; Transformer {`PDB`  &rarr; `SDF`}]  | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [🧬](Asclepios%20Utilizer.md "Asclepios Utilizer") |
     | Preserves chemical inforamtion of small molecules [`Mol2`]| [File Loader &rarr; Transformer {`SDF`  &rarr; `Mol2`} &rarr; Transformer {`Mol2`  &rarr; `SDF`}]  | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [🧬](Asclepios%20Utilizer.md " Asclepios Utilizer") |
 
     Download workflow [:material-download:](../assets/utilizer/utilizer_scenario6.knwf)
