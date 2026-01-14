@@ -65,7 +65,7 @@ Output:
 
     | Scenario  | Workflow (Nodes involved) | Classes |
     | -------- | -------- | ---------------- |
-    | RxDock method "reference ligand" | [3 File Loaders {`mol2`, `sdf`, `sdf`} &rarr; RxDock]  | [📄](Asclepios General Puprose.md "Asclepios General Puprose") [💊](Asclepios Molecular Docking.md "Asclepios Molecular Docking") |
+    | RxDock method "reference ligand" | [3 File Loaders {`mol2`, `sdf`, `sdf`} &rarr; RxDock]  | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [💊](Asclepios%20Molecular%20Docking.md "Asclepios Molecular Docking") |
 
     Download workflow [:material-download:](../assets/medic/molecular_docking_scenario1.knwf)
 
@@ -79,7 +79,7 @@ Output:
 
     | Scenario  | Workflow (Nodes involved) | Classes |
     | -------- | -------- | ---------------- |
-    | RxDock method "two spheres" | [2 File Loaders {`mol2`, `sdf`} &rarr; RxDock]  | [📄](Asclepios General Puprose.md "Asclepios General Puprose") [💊](Asclepios Molecular Docking.md "Asclepios Molecular Docking") |
+    | RxDock method "two spheres" | [2 File Loaders {`mol2`, `sdf`} &rarr; RxDock]  | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [💊](Asclepios%20Molecular%20Docking.md "Asclepios Molecular Docking") |
 
     Download workflow [:material-download:](../assets/medic/molecular_docking_scenario2.knwf)
 
@@ -94,7 +94,7 @@ Output:
 
     | Scenario  | Workflow (Nodes involved) | Classes |
     | -------- | -------- | ---------------- |
-    | AutoDock Vina | [2 File Loaders {receptor:`mol2`, ligand:`sdf`} &rarr; 2 Transformers {receptor,ligand} &rarr; AutoDock Vina]  | [📄](Asclepios General Puprose.md "Asclepios General Puprose") [🧬](Asclepios Utilizer.md "Asclepios Utilizer") [💊](Asclepios Molecular Docking.md "Asclepios Molecular Docking") |
+    | AutoDock Vina | [2 File Loaders {receptor:`mol2`, ligand:`sdf`} &rarr; 2 Transformers {receptor,ligand} &rarr; AutoDock Vina]  | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [🧬](Asclepios%20Utilizer.md "Asclepios Utilizer") [💊](Asclepios%20Molecular%20Docking.md "Asclepios Molecular Docking") |
 
     Download workflow [:material-download:](../assets/medic/molecular_docking_scenario3.knwf)
 

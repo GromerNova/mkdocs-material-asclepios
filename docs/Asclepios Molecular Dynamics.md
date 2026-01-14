@@ -85,7 +85,7 @@ DOI: 10.1021/acs.jpcb.3c06662
 
     | Scenario  | Workflow (Nodes involved) | Classes |
     | -------- | -------- | ---------------- |
-    | Ligand's topology and molecular configurations files. | [File Loaders {`sdf`}, Transformer {`sdf` &rarr; `mol2`} &rarr; Antechamber Plus]  | [📄](Asclepios General Puprose.md "Asclepios General Puprose") [🧬](Utilizer.md "Asclepios Utilizer")[⚙️](Asclepios Molecular Dynamics.md "Asclepios Molecular Dynamics") |
+    | Ligand's topology and molecular configurations files. | [File Loaders {`sdf`}, Transformer {`sdf` &rarr; `mol2`} &rarr; Antechamber Plus]  | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [🧬](Asclepios%20Utilizer.md "Asclepios Utilizer")[⚙️](Asclepios%20Molecular%20Dynamics.md "Asclepios Molecular Dynamics") |
 
     Download workflow [:material-download:](../assets/preparator/preparator_scenario1.knwf)
 
@@ -99,9 +99,9 @@ DOI: 10.1021/acs.jpcb.3c06662
 
     | Scenario  | Workflow (Nodes involved) | Classes |
     | -------- | -------- | ---------------- |
-    | Molecular docking | Asclepios File Loader {`SDF`,`Mol2`} &rarr; Asclepios RxDock| [📄](Asclepios General Puprose.md "Asclepios General Puprose") [💊](Medic.md "Asclepios Molecular Docking") |
-    | Ligand preparation | Asclepios AddHydrogens &rarr; Transformer {`SDF` &rarr; `Mol2`} &rarr; Antechamber Plus &rarr; Asclepios Amber System Prep  | [📄](Asclepios General Puprose.md "Asclepios General Puprose") [🧬](Utilizer.md "Asclepios Utilizer")[⚙️](Asclepios Molecular Dynamics.md "Asclepios Molecular Dynamics") |
-    | Preotein preparation |Transformer {`Mol2` &rarr; `PDB`} &rarr; Antechamber Plus &rarr; Asclepios Amber System Prep  | [📄](Asclepios General Puprose.md "Asclepios General Puprose")[🧬](Utilizer.md "Asclepios Utilizer")[⚙️](Asclepios Molecular Dynamics.md "Asclepios Molecular Dynamics") |
+    | Molecular docking | Asclepios File Loader {`SDF`,`Mol2`} &rarr; Asclepios RxDock| [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [💊](Asclepios%20Molecular%20Docking.md "Asclepios Molecular Docking") |
+    | Ligand preparation | Asclepios AddHydrogens &rarr; Transformer {`SDF` &rarr; `Mol2`} &rarr; Antechamber Plus &rarr; Asclepios Amber System Prep  | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [🧬](Asclepios%20Utilizer.md "Asclepios Utilizer")[⚙️](Asclepios Molecular Dynamics.md "Asclepios Molecular Dynamics") |
+    | Preotein preparation |Transformer {`Mol2` &rarr; `PDB`} &rarr; Antechamber Plus &rarr; Asclepios Amber System Prep  | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose")[🧬](Asclepios%20Utilizer.md "Asclepios Utilizer")[⚙️](Asclepios Molecular Dynamics.md "Asclepios Molecular Dynamics") |
 
     Download workflow [:material-download:](../assets/preparator/preparator_scenario2.knwf)
 

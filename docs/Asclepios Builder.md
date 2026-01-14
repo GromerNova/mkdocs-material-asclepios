@@ -102,7 +102,7 @@ Output:
 
     | Scenario  | Workflow (Nodes involved) | Classes |
     | -------- | -------- | ---------------- |
-    | 2D molecular representation and standardization | [File Loader, Generate 2D3D, AddHydrogens, Molecule Standardizer]  | [📄](Asclepios General Puprose.md "Asclepios General Puprose") [🛠️](Asclepios Builder.md "Asclepios Builder") |
+    | 2D molecular representation and standardization | [File Loader, Generate 2D3D, AddHydrogens, Molecule Standardizer]  | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [🛠️](Asclepios%20Builder.md "Asclepios Builder") |
 
     
 
@@ -132,8 +132,8 @@ Output:
 
     | Scenario  | Workflow (Nodes involved) | Classes |
     | -------- | -------- | ---------------- |
-    | RDKit 3D Geretrators (MGC) with Generate 2D3D | [File Loader &rarr; Molecule Type Cast &rarr; {RDKit Generate Coords, RDKit Add Conformers}]  | [📄](Asclepios General Puprose.md "Asclepios General Puprose")|
-    | Generate 2D3D | [File Loader &rarr; Generate 2D3D]  | [📄](Asclepios General Puprose.md "Asclepios General Puprose") [🛠️](Asclepios Builder.md "Asclepios Builder") |
+    | RDKit 3D Geretrators (MGC) with Generate 2D3D | [File Loader &rarr; Molecule Type Cast &rarr; {RDKit Generate Coords, RDKit Add Conformers}]  | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose")|
+    | Generate 2D3D | [File Loader &rarr; Generate 2D3D]  | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [🛠️](Asclepios%20Builder.md "Asclepios Builder") |
 
     </center>
 
