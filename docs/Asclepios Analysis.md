@@ -96,8 +96,8 @@ Output:
 
     | Scenario  | Workflow (Nodes involved) | Classes |
     | -------- | -------- | ---------------- |
-    | Check ligand following a `SDF` transformation  | [File Loader &rarr; Transformer {`PDBQT`&rarr;`SDF`} &rarr; Generate 2D3D &rarr; Molecule Checker] | [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [🧬](Asclepios%20Utilizer.md "Asclepios Utilizer")  [🛠️](Asclepios%20Builder.md "Asclepios Builder") [🔍](Asclepios%20Analysis.md "Asclepios Analysis") |
-    | Check ligand after an intermidiate `PDB` transformation | [File Loader &rarr; Transformer {`PDBQT`&rarr;`PDB`} &rarr; Transformer {`PDB`&rarr;`SDF`} &rarr; Generate 2D3D &rarr; Molecule Checker]  |  [📄](Asclepios%20General%20Puprose.md "Asclepios General Puprose") [🧬](Asclepios%20Utilizer.md "Asclepios Utilizer")  [🛠️](Asclepios%20Builder.md "Asclepios Builder") [🔍](Asclepios%20Analysis.md "Asclepios Analysis") |
+    | Check ligand following a `SDF` transformation  | [File Loader &rarr; Transformer {`PDBQT`&rarr;`SDF`} &rarr; Generate 2D3D &rarr; Molecule Checker] | [📄](Asclepios%20General%20Purpose.md "Asclepios General Puprose") [🧬](Asclepios%20Utilizer.md "Asclepios Utilizer")  [🛠️](Asclepios%20Builder.md "Asclepios Builder") [🔍](Asclepios%20Analysis.md "Asclepios Analysis") |
+    | Check ligand after an intermidiate `PDB` transformation | [File Loader &rarr; Transformer {`PDBQT`&rarr;`PDB`} &rarr; Transformer {`PDB`&rarr;`SDF`} &rarr; Generate 2D3D &rarr; Molecule Checker]  |  [📄](Asclepios%20General%20Purpose.md "Asclepios General Puprose") [🧬](Asclepios%20Utilizer.md "Asclepios Utilizer")  [🛠️](Asclepios%20Builder.md "Asclepios Builder") [🔍](Asclepios%20Analysis.md "Asclepios Analysis") |
 
     Download workflow [:material-download:](../assets/analyzer/analysis_scenario1.knwf)
 
